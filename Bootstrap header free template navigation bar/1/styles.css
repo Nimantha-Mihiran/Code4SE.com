@@ -1,0 +1,67 @@
+/* Dark Theme */
+.navbar {
+    background-color: #343a40; /* Dark background */
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff; /* White text for nav links */
+    transition: color 0.3s ease, transform 0.3s ease; /* Animation for hover */
+  }
+  
+  /* Hover effects for navbar items */
+  .navbar-nav .nav-link:hover {
+    color: #ff6f61; /* Light-up color on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  
+  /* Dropdown Menu custom styling */
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    animation: dropdownAnim 0.3s ease-out; /* Animation for dropdown */
+  }
+  
+  .dropdown-menu {
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  /* Toggler button animation */
+  .navbar-toggler-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-toggler:focus .navbar-toggler-icon {
+    transform: rotate(90deg);
+  }
+  
+  /* Animation for the dropdown */
+  @keyframes dropdownAnim {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Smooth transition for navbar items on hover */
+  .nav-item {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Styling the navbar brand */
+  .navbar-brand {
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #ff6f61 !important;
+  }
+  
