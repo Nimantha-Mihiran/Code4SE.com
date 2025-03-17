@@ -1,0 +1,56 @@
+/* Navbar styles */
+.navbar {
+    background-color: #ffffff; /* Pure white background */
+    border-bottom: 1px solid #eaeaea; /* Subtle bottom border */
+    padding: 1rem 1.5rem; /* Spacious padding for modern look */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #0d6efd !important; /* Bootstrap primary blue for branding */
+    font-size: 1.5rem; /* Larger font size for emphasis */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #495057 !important; /* Neutral dark gray */
+    font-size: 1rem; /* Modern readable font size */
+    padding: 0.5rem 1rem; /* Spacing for clickable area */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0d6efd !important; /* Bootstrap primary blue */
+    background-color: #f8f9fa; /* Light gray hover background */
+    border-radius: 5px; /* Rounded corners for hover effect */
+  }
+  
+  .dropdown-menu {
+    border-radius: 10px; /* Modern rounded dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa; /* Light gray hover */
+    color: #0d6efd !important; /* Blue hover text */
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem; /* Larger padding for emphasis */
+    border-radius: 25px; /* Pill-shaped button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  /* Container styles */
+  .container-fluid {
+    max-width: 1200px; /* Restrict width for centered layout */
+  }
+  
