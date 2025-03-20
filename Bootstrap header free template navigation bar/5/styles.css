@@ -1,0 +1,58 @@
+/* Body Styles */
+body {
+    background-image: url('wallpaperflare (3).jpg'); /* Background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fixed position */
+    min-height: 100vh; /* Minimum height */
+    color: white; /* Text color for visibility */
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Semi-transparent background */
+    border: none;
+    backdrop-filter: blur(10px); /* Blur effect */
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #ff9f00;
+  }
+  
+  .nav-link {
+    color: #ddd !important; /* Light gray text */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ff9f00 !important; /* Hover color */
+  }
+  
+  .navbar-toggler {
+    background-color: #ff9f00; /* Button background */
+    border: none; /* No border */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white; /* Icon color */
+  }
+  
+  /* Button Styles */
+  .btn-warning {
+    background-color: #ff9f00;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-warning:hover {
+    background-color: #f39c00;
+  }
+  
