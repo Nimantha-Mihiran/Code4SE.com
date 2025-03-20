@@ -1,0 +1,21 @@
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa; /* Light gray background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .navbar a.nav-link {
+    color: #495057 !important; /* Dark gray text for links */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .navbar a.nav-link:hover {
+    color: #0d6efd !important; /* Blue hover effect */
+  }
+  
+  /* Button styles */
+  .navbar .btn-primary {
+    font-weight: bold; /* Bold font */
+    border-radius: 20px; /* Rounded corners */
+  }
+  
