@@ -1,0 +1,56 @@
+/* Custom dark theme styles with light-up hover effect */
+body {
+    background-color: #222; /* Darker shade for body background */
+    color: #ffffff; /* Light text color for readability */
+  }
+  
+  .navbar-dark .navbar-brand,
+  .navbar-dark .nav-link {
+    color: #9DFFFA; /* Cyan text color for brand and links */
+    transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+  }
+  
+  .navbar-dark .nav-link:hover,
+  .navbar-dark .navbar-brand:hover {
+    color: #FFFFFF; /* Bright white color on hover to light up the text */
+  }
+  
+  .form-control {
+    background-color: #495057; /* Dark background for form inputs */
+    border-color: #778899; /* Light Slate Gray border for inputs */
+    color: #D3D3D3; /* Light Gray text color for inputs */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out; /* Smooth transitions */
+  }
+  
+  .form-control:focus {
+    background-color: #d4f1f0; /* Light background on focus */
+    border-color: #00CED1; /* Dark Turquoise border on focus */
+  }
+  
+  .btn-outline-light {
+    border-color: #20C997; /* Teal border for buttons */
+    color: #20C997; /* Teal text for buttons */
+    transition: all 0.3s ease-in-out; /* Smooth transitions for all properties */
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #027d58; /* Teal background on hover */
+    color: #FFFFFF; /* Bright white text on hover */
+  }
+  
+  /* Animate navbar items on load */
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .nav-item {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+  
